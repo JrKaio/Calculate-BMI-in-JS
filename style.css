@@ -1,0 +1,111 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans' );
+
+
+:root{
+--primary-color: black;
+--primary-color-darker:  rgb(23, 23, 23);
+}
+*{
+box-sizing: border-box;
+outline: 0;
+
+}
+body{ margin: 0;
+    padding:0;
+    background : var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: aliceblue;
+
+
+}
+section {
+    position: relative;
+   
+    background-attachment:fixed;
+    height:100vh;
+    color: aliceblue;
+}
+
+section #forms {
+    background: rgb(20, 21, 21);
+    position: relative;
+    top: 35%;
+    left: 30%;
+    max-width: 600px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(206, 139, 39, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+
+
+section #forms h2 {
+    position: relative;
+    
+}
+
+section #forms p {
+    color: aliceblue;
+    position: relative;
+}
+
+section #forms button {
+    position: relative;}
+    form input, form label, form button{
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      
+        
+        }
+        form input{
+            font-size: 24px;
+            height: 50px;
+            padding:  0 20px;
+        } form imput:focus{
+        
+            outline: 1px solid white;
+        }
+        
+        
+        form button{
+            border: none;
+            background: rgba(206, 139, 39, 0.5);
+           color: whitesmoke;
+            font-size: 18px;
+            font-weight: 700;
+            height: 50px;
+            cursor: pointer;
+            margin-top: 30px;
+            position: relative;
+        
+        }
+        form button :hover
+        {
+            background: var(--primary-color-darker);
+        }
+        form table{
+            border: 6px;
+border: 5px rgba(85, 43, 34, 0.644);
+background:black;
+color: white;
+    box-shadow: 0 10px 20px rgba(206, 139, 39, 0.5);
+
+        }
+        .paragrafo-resultado{
+
+            background: rgb(91, 199, 163);
+            padding: 10px;
+        }
+        .bad{
+
+            background: rgb(236, 6, 6);
+            padding: 10px;
+        }
+    
+    
+    
+
+
